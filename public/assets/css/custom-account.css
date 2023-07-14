@@ -1,0 +1,99 @@
+.set-account-height{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.set-account-height .account-detail-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid #d173ff;
+}
+.set-account-height .account-detail-box img{
+    max-height: 26px;
+}
+.set-account-height .image-inner{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9155af;
+    border-radius: 50%;
+}
+.set-account-height .image-inner img{
+    object-fit: contain;
+}
+.set-account-height .image-inner i{
+    font-size: 20px;
+    color: #fff;
+}
+.set-account-height .account-head-name{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #000;
+}
+.set-account-height .account-detail-box:last-child{
+    border: none;
+}
+.setting-button-set  h3{
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.box-shadow-account{
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.setting-button-set .inner-links{
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 700;
+    border:2px solid  #D173FF ;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: left;
+    background: linear-gradient(90deg, #4C1368 -9.38%, #D173FF 125%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin: 10px;
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.setting-button-set .inner-links:hover,.setting-button-set .inner-links.active{
+    background: linear-gradient(90deg, #4C1368 -9.38%, #D173FF 125%);
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+    border-color: transparent;
+}
+.setting-button-set .small-heading{
+    font-size: 16px;
+    font-weight: 500;
+}
+@media (max-width:768px){
+.set-account-height .account-detail-box{
+    padding: 14px 0;
+}
+.set-account-height .account-head-name{
+    font-size: 14px;
+}
+.setting-button-set .inner-links,.setting-button-set .small-heading{
+    font-size: 14px;
+}
+.setting-button-set h3{
+    font-size: 18px;
+}
+.setting-button-set .inner-links {
+    padding: 6px 20px;
+    margin: 10px 0;
+}
+}

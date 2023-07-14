@@ -1,0 +1,176 @@
+html body{
+    font-family: 'Saira', sans-serif;
+    background-color: #F5EFFF !important; 
+}
+.main-header .navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff  ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0 20px;
+    position: relative;
+}
+.main-header .navbar-expand-lg .nav-item .nav-link {
+    color: #fff ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 0 20px;
+    text-decoration: none;
+    position: relative;
+}
+.main-header .navbar-expand-lg .nav-item .dropdown-item {
+    color: #fff ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration: none;
+    position: relative;
+}
+.main-header .navbar-expand-lg .nav-item .dropdown-item:hover{
+    background-color: #D173FF;
+}
+.main-header .navbar-expand-lg .nav-item .dropdown-menu{
+    background-color: #1a1a1a;
+    border-radius: 8px;
+}
+.main-header .navbar-expand-lg .navbar-nav .nav-link::after {
+    content: "";
+    background: linear-gradient(90deg, #4C1368 -9.38%, #D173FF 125%);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    transition: all ease-in-out .5s;
+}
+.main-header .navbar-expand-lg .navbar-nav .nav-link:hover::after,
+.main-header .navbar-expand-lg .navbar-nav .nav-link:focus::after,
+.main-header .navbar-expand-lg .navbar-nav .nav-link.active::after{
+    width: 40%;
+}
+.common-btn {
+    background: linear-gradient(90deg, #4C1368 -9.38%, #D173FF 125%);
+    border-radius: 6px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none !important;
+    color: #fff  !important;
+    box-shadow: none !important;
+    outline: none !important;
+    margin: 10px;
+    border: none !important;
+}
+.main-header .navbar-expand-lg{
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    z-index: 1020;
+    left: 0;
+    right: 0;
+    background-color: #4C1368;
+    border-bottom: 1px solid #D173FF;
+}
+.main-header .navbar-expand-lg .Logout-btn.btn.btn-primary a{
+    text-decoration: none !important;
+}
+.gradient-border-btn {
+    background: linear-gradient(90deg, #4C1368 -9.38%, #D173FF 125%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    border: 1px solid #cca652;
+    padding: 9px 20px;
+    margin: 10px;
+    display: inline-block;
+}
+.main-header .navbar-expand-lg .common-btn{
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+}
+.white-heading{
+    font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 63px;
+letter-spacing: 0.003em;
+color: #000 FFF;
+margin: 20px 0 40px;
+}
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: 0.003em;
+    color: #000 ;
+}
+.navbar-light .navbar-toggler {
+    background: linear-gradient(90deg, #4C1368 -9.38%, #D173FF 125%);
+    padding: 2px 6px;
+}
+@media (max-width: 992px) {
+    .main-header .navbar-expand-lg .navbar-nav .nav-link::after {
+        left: 0 ;
+        right: auto;
+    }
+    .main-header .navbar-expand-lg .navbar-nav .nav-link:hover::after, .main-header .navbar-expand-lg .navbar-nav .nav-link:focus::after, .main-header .navbar-expand-lg .navbar-nav .nav-link.active::after {
+        width: 40px !important;
+    }
+    .common-btn {
+        padding: 8px 12px;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 10px;
+    }
+    .gradient-border-btn{
+        padding: 7px 12px;
+        font-size: 14px;
+        line-height: 18px;
+        margin: 10px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .white-heading {
+        font-size: 26px;
+        line-height: 36px;
+        margin: 10px 0 30px;
+    }
+}
+.Toastify__toast-body > div:last-child{
+    font-size: 20px;
+}
+
+.web3modal-modal-lightbox {
+    z-index: 10000;
+  }
+  #WEB3_CONNECT_MODAL_ID .web3modal-modal-lightbox {
+    z-index: 10000;
+  }
+
+.active11{
+    color: #d1ac58 !important;
+}
+
+
